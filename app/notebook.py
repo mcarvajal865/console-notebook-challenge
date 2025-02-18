@@ -14,10 +14,11 @@ class Note:
 
         self.importance: str = importance
 
-        self.current_datetime = datetime.now():
+        self.current_datetime = datetime.now()
 
+        self.tags: list[str]
 
-
-
-
+    def add_tags(self, tag: str):
+        if tag not in self.tags:
+            self.tags.append(tag)
 
