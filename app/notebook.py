@@ -1,7 +1,5 @@
 # TODO: Agrega el código de las clases del modelo aquí. Borra este comentario al terminar.
-
 from datetime import datetime
-
 class Note:
     HIGH = "HIGH"
     MEDIUM = "MEDIUM"
@@ -15,5 +13,11 @@ class Note:
         self.text: str = text
 
         self.importance: str = importance
+
+        self.current_datetime = datetime.now():
+
+
+
+
 
 
