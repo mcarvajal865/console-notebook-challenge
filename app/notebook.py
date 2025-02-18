@@ -24,3 +24,5 @@ class Note:
 
     def __str__(self) -> str:
         return (f"date: {self.current_datetime},\n title:{self.title}, text:{self.text}")
+
+hoal
